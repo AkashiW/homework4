@@ -1,0 +1,78 @@
+.header{
+    background-color: fuchsia;
+    text-align: center;
+    width: 100%;
+    float: none;
+    padding: 30px 40px;
+}
+.nav{
+    background-color: dodgerblue;
+    text-align: center;
+    width: 100%
+    float: none;
+    padding: 10px 10px;
+}
+.siderbar{
+    background-color: coral;
+    text-align: center;
+    width: 25%;
+    float: left;
+    height:100px;
+}
+.main{
+    background-color: forestgreen;
+    text-align: center;
+    width: 75%;
+    float: right;
+    height:100px;
+}
+.footer{
+    background-color: deeppink;
+    text-align: center;
+    width: 100%;
+    float: none;
+    height:200px;    
+}
+
+
+.some>li{
+display: inline-block;
+position: relative;
+  border: 1px solid #ddd;
+  border-right: 0;
+  padding: .5em 1em;
+  margin-left: -5px;
+  box-sizing: border-box;
+  width: 25%;
+}
+.some>li:hover .submenu{
+  display: block;
+  cursor: pointer;
+}
+.submenu{
+width: 200px;
+padding: 0px;
+  position: absolute;
+  left: -1px; 
+  top: 100%; 
+  display: none;
+}
+.some>li:last-child{
+  border-right: 1px solid #ddd;
+}
+.submenu{
+  background: #eee;
+  padding: 0px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.submenu li{
+  padding: .5em 15px;
+  color: black;
+  cursor: pointer;
+  list-style-type:none;
+}
+.submenu li:hover{
+  color: gray;
+  background: #faff7f;
+}
